@@ -1,0 +1,36 @@
+.box{
+    width: 100px;
+    height: 100px;
+    /* margin: 0 100px; */
+}
+.box1{
+    background-color: pink;
+    right: 50px;
+    bottom: 100px;
+    position: fixed;
+}
+.box2{
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+}
+.box3{
+    background-color: red;
+    position: absolute;
+    z-index: 0;
+}
+.box4{
+    background-color: blueviolet;
+}
+.container{
+    width: 70%;
+    height: 70vh;
+    border: 2px solid rgb(179, 7, 64);
+    position: relative;
+}
+.box5{
+    background-color: yellowgreen;
+}
+.box6{
+    background-color: burlywood;
+}

@@ -1,0 +1,18 @@
+.flag-container{
+    width: 500px;
+    background-color: blue;
+}
+.part1,.part3{
+    height: 200px;
+    background-color: blue;
+}
+.part2{
+    height: 200px;
+    background-color: red;
+}
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}

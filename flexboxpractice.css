@@ -1,0 +1,257 @@
+:root {
+  --primary: darkblue;
+  --secondary: rgb(200, 233, 247);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite GB J Guides", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+html {
+  background-color: silver;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+header p {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav ul {
+  gap: 100px;
+  display: flex;
+  list-style: none;
+}
+header button {
+  background-color: var(--secondary);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 6px;
+}
+header button:hover {
+  background-color: skyblue;
+}
+.title {
+  margin: 50px 0px;
+  text-align: center;
+}
+.title h1 {
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+.title p {
+  font-size: 1.5rem;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+.list-tabs {
+  display: flex;
+  width: 90%;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.tabs ul {
+  gap: 130px;
+  display: flex;
+  list-style: none;
+}
+.tabs a {
+  font-size: 1.2rem;
+  color: var(--primary);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.tabs a:hover {
+  padding: 10px 20px;
+  border-radius: 15px;
+  background-color: rgb(47, 101, 201);
+}
+.section-container {
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  width: 90%;
+  gap: 20px;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: var(--secondary);
+  width: calc((100% - (20px * 3)) / 4);
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+.card img {
+  width: 100%;
+}
+.card .small-container {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.p1 {
+  margin: 10px 20px;
+  font-size: 1.25rem;
+}
+.p2 {
+  margin: 10px 20px;
+  color: rgb(52, 52, 58);
+}
+.card .star-container {
+  margin: 10px 20px;
+  align-items: center;
+  display: flex;
+}
+.text {
+  margin-left: 10px;
+}
+.card hr {
+  margin: 10px 20px;
+}
+.card .last-text {
+  display: flex;
+  margin: 10px 20px;
+  justify-content: space-between;
+}
+.time {
+  display: flex;
+  gap: 5px;
+}
+.calender {
+  display: flex;
+  gap: 5px;
+}
+.lv {
+  background-color: rgb(208, 166, 247);
+  border-radius: 7px;
+  padding: 5px;
+}
+.lv p {
+  color: rgb(125, 14, 236);
+}
+.card2 .lv {
+  color: rgb(16, 148, 16);
+  background-color: rgb(210, 233, 176);
+}
+.card3 .lv {
+  color: rgb(16, 148, 16);
+  background-color: rgb(210, 233, 176);
+}
+.card4 .lv {
+  color: rgb(16, 148, 16);
+  background-color: rgb(210, 233, 176);
+}
+.go-to-top {
+  background-color: orange;
+  padding: 10px 12px;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.img-container {
+  position: relative;
+}
+.fa-bookmark {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+}
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+footer{
+  width: 100%;
+  padding: 30px 50px;
+  background-color: var(--primary);
+  margin-top: 30px;
+}
+.footer-container{
+  display: flex;
+  gap: 300px;
+}
+.footer-section{
+  color: white;
+}
+.about p{
+  padding: 5px 0;
+}
+.course ul{
+  padding: 5px 0;
+}
+.Link ul{
+  padding: 5px 0;
+}
+ .email ,.phone {
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+}
+.phone {
+  margin-top: 15px;
+}
+.footer-section h3{
+  margin-bottom: 20px;
+}
+hr{
+  margin: 20px 0;
+}
+.social i{
+  float: right;
+  margin-left: 20px;
+}
+.course  ul{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+.course ul,a{
+  text-decoration: none;
+  color: white;
+}
+.Link ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+.about p{
+  line-height: 25px;
+}

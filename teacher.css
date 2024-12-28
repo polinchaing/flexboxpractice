@@ -1,0 +1,85 @@
+:root{
+    --primary: darkblue;
+    --secondary: dodgerblue
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: silver;
+}
+header{
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+header p{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    gap: 40px;
+    display: flex;
+    list-style: none;
+}
+header button{
+    background-color: var(--secondary);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 6px;
+}
+header button:hover{
+    background-color: skyblue;
+}
+.title{
+    margin: 50px 0px;
+    text-align: center;
+}
+.title h1{
+    font-size: 3rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+.title p{
+    font-size: 1.5rem;
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+}
+.list-tabs{
+    display: flex;
+    width: 95%;
+    padding: 30px;
+    background-color: lightblue;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.tabs ul{
+    gap: 130px;                                                                                                                     ;
+    display: flex;
+    list-style: none;
+}
+.tabs a{
+    font-size: 1.2rem;
+    color: var(--primary);
+    padding: 10px 20px;                                              
+    text-decoration: none;
+}
+.tabs a:hover{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: var(--secondary);
+}
